@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9aaa30030202a4baf7b47d304200a3, type: 3}
+  m_Name: Dialogue0022
+  m_EditorClassIdentifier: 
+  DialogueSegment:
+  - Audio: {fileID: 8300000, guid: e8b4ab29cc00352478d5b803e47bc651, type: 3}
+    Text: "(K\xFC\xE7\xFCk Karde\u015F) Kahraman \xE7ok h\u0131zl\u0131 gitsin. ta\u015F
+      canavarlar\u0131 ona vuramas\u0131nlar.\r"
+    Delay: 0

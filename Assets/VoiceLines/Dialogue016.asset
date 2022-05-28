@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9aaa30030202a4baf7b47d304200a3, type: 3}
+  m_Name: Dialogue016
+  m_EditorClassIdentifier: 
+  DialogueSegment:
+  - Audio: {fileID: 8300000, guid: b515907b24772aa4698182dcf1ada6ed, type: 3}
+    Text: "(K\xFC\xE7\xFCk Karde\u015F) Kahramana s\xFCm\xFCk canavarlar\u0131 z\u0131playarak
+      sald\u0131r\u0131r.\r\n"
+    Delay: 0
+  - Audio: {fileID: 8300000, guid: 054b7016113d6914eb895e18e081a97a, type: 3}
+    Text: "(Abi) S\xFCm\xFCk! Slime olmas\u0131n onlar.\r\n"
+    Delay: 0

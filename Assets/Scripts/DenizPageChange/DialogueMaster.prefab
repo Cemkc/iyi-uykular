@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5542578524102953142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5542578524102953141}
+  - component: {fileID: 5542578524102953140}
+  - component: {fileID: 3721921421760492724}
+  - component: {fileID: 5542578524102953143}
+  m_Layer: 0
+  m_Name: DialogueMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5542578524102953141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5542578524102953142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5542578524102953140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5542578524102953142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597cbd48bc7bf9d4fbaaa614efa6842e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogues:
+  - Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: StageMaster, Assembly-CSharp
+          m_MethodName: MoveCamera1
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: b7e6a4fec35ac92439d2a6eff14893b1, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: Timer, Assembly-CSharp
+          m_MethodName: StartTimer
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 2
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    Dialogue: {fileID: 11400000, guid: 16728be3832ba9c4e957b90836832d52, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: EventMaster, Assembly-CSharp
+          m_MethodName: StopTime
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 3721921421760492724}
+          m_TargetAssemblyTypeName: ChoicesMaster, Assembly-CSharp
+          m_MethodName: LoadChoice
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    Dialogue: {fileID: 11400000, guid: 4a28796b247a85545b989273dc4a5c60, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  - Event:
+      m_PersistentCalls:
+        m_Calls: []
+    Dialogue: {fileID: 11400000, guid: 80e7710693cdc3f449024a9c23da345c, type: 2}
+  _dialogueIndex: 0
+  _audioSource: {fileID: 5542578524102953143}
+  _textField: {fileID: 0}
+  _dialogueState: 0
+--- !u!114 &3721921421760492724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5542578524102953142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e712a4bc71c904d9431a57b595b1cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _choices:
+  - ChoicePrefab: {fileID: 6550745460532273635, guid: dd51e492fb88db1448dcf1bfd5c52a33, type: 3}
+    Text: "(Abi) Peki, s\xFCper g\xFCc\xFC ne olsun ?\r"
+  _canvas: {fileID: 0}
+  _textField: {fileID: 0}
+--- !u!82 &5542578524102953143
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5542578524102953142}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

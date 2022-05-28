@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9aaa30030202a4baf7b47d304200a3, type: 3}
+  m_Name: Dialogue008
+  m_EditorClassIdentifier: 
+  DialogueSegment:
+  - Audio: {fileID: 8300000, guid: 96040dd2e860ed743b68ee7b9c6a5c58, type: 3}
+    Text: "(K\xFC\xE7\xFCk Karde\u015F) Kahraman bak\u0131\u015Flar\u0131yla askerleri
+      yaks\u0131n, kendilerini s\xF6nd\xFCrmekten kahramana sald\u0131ramas\u0131nlar.\r\n"
+    Delay: 0
+  - Audio: {fileID: 8300000, guid: 5f8e5e3c7a3522244a2acc2f9bf3e2e8, type: 3}
+    Text: "(Abi) Dikkat et! Ate\u015Fle oyun olmaz.\r\n\n"
+    Delay: 0

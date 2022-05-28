@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9aaa30030202a4baf7b47d304200a3, type: 3}
+  m_Name: Dialogue027
+  m_EditorClassIdentifier: 
+  DialogueSegment:
+  - Audio: {fileID: 8300000, guid: 74585fbf42d83434eaca5334e6966b63, type: 3}
+    Text: "(K\xFC\xE7\xFCk Karde\u015F) Sava\u015Fmam\u0131za gerek yok. Arkada\u015F
+      olup birlikte k\xF6t\xFC kral\u0131 yenebiliriz.\r"
+    Delay: 0
+  - Audio: {fileID: 8300000, guid: a25c48f2d5f57124f9628fce68d890d5, type: 3}
+    Text: "(Abi) Kahraman ejderha ile arkada\u015F olur ve kahramanla ejderha sonsuza
+      kadar mutlu ya\u015Farlar.\r"
+    Delay: 4

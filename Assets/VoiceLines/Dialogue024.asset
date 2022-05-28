@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9aaa30030202a4baf7b47d304200a3, type: 3}
+  m_Name: Dialogue024
+  m_EditorClassIdentifier: 
+  DialogueSegment:
+  - Audio: {fileID: 8300000, guid: b5896b4a7f075ad459f36985a8d3c6a4, type: 3}
+    Text: "(K\xFC\xE7\xFCk Karde\u015F) Kahraman bak\u0131\u015Flar\u0131yla canavarlar\u0131
+      yaks\u0131n.\r"
+    Delay: 0
+  - Audio: {fileID: 8300000, guid: a414201a9030e3e419ad60eb984bbe10, type: 3}
+    Text: "(Abi) Canavarlar ta\u015Ftan yap\u0131lma, yanmazlar ki.\r"
+    Delay: 0
